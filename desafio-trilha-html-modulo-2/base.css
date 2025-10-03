@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
     background-color: #4a5e46;
     display: flex;
@@ -13,22 +15,26 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: rgb(141, 127, 100);
     padding: 10px 20px 0px;
 }
+
 .menu a {
     color: #ffffff;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
+
 .header-home {
     background-image: url('https://i.ibb.co/pkN6BnN/imagem-header.png');
     background-size: cover;
@@ -37,13 +43,15 @@ body {
     background-color: rgb(231, 223, 223);
     min-height: 150px;
 }
+
 .header-home h1 {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 3rem;
     font-style: normal;
     text-align: right;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .header-sobre {
     background-image: url('https://i.ibb.co/pkN6BnN/imagem-header.png');
     background-size: cover;
@@ -52,6 +60,7 @@ body {
     background-color: rgb(231, 223, 223);
     min-height: 150px;
 }
+
 .header-sobre h1 {
     color: #ffffff;
     font-size: 3rem;
@@ -59,6 +68,7 @@ body {
     text-align: right;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .header-atendimento {
     background-image: url('https://i.ibb.co/pkN6BnN/imagem-header.png');
     background-size: cover;
@@ -67,6 +77,7 @@ body {
     background-color: rgb(231, 223, 223);
     min-height: 150px;
 }
+
 .header-atendimento h1 {
     color: #ffffff;
     font-size: 3rem;
@@ -74,6 +85,7 @@ body {
     text-align: right;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .header-contato {
     background-image: url('https://i.ibb.co/pkN6BnN/imagem-header.png');
     background-size: cover;
@@ -82,6 +94,7 @@ body {
     background-color: rgb(231, 223, 223);
     min-height: 150px;
 }
+
 .header-contato h1 {
     color: #ffffff;
     font-size: 3rem;
@@ -89,58 +102,74 @@ body {
     text-align: right;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .content {
     color: #ffffff;
     background-color: rgb(77, 94, 78);
     min-height: 300px;
     padding: 20px;
 }
+
 .content blockquote {
     font-size: 21px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     text-align: left;
 }
+
 .content table {
     color: #f7f7f7;
-   width: 100%;
-   border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
-.content th,td{
+
+.content th,
+td {
     border: 1px solid #d2e7dd;
     padding: 8px;
     text-align: left;
 }
-.content th{
+
+.content th {
     background-color: #62835d;
 }
-.content tbody tr:nth-child(even){
+
+.content tbody tr:nth-child(even) {
     background-color: #3c4d3f;
 }
-.content input, textarea,label {
+
+.content input,
+textarea,
+label {
     color: #f7f7f7;
     box-sizing: border-box;
     font-family: inherit;
     font-size: 1rem;
 }
-.content input, textarea {
-   color: #f7f7f7;
-   width: 100%;
-   padding: 12px;
-   margin-bottom: 15px;
-   border: 1px;
-   border-radius: 6px;
-   background-color: rgb(141, 127, 100);
+
+.content input,
+textarea {
+    color: #f7f7f7;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 6px;
+    background-color: rgb(141, 127, 100);
 }
-.content input:focus, textarea:focus{
+
+.content input:focus,
+textarea:focus {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(146, 253, 125, 0.5);
 }
-.content iframe{
+
+.content iframe {
     border-radius: 6px;
 }
-.content button{
+
+.content button {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -148,12 +177,14 @@ body {
     font-size: 1rem;
     margin-right: 10px;
 }
+
 .footer {
     color: #ffffff;
     background-color: rgb(133, 115, 88);
     min-height: 150px;
 }
-.footer p{
+
+.footer p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     line-height: 1;
